@@ -22,7 +22,7 @@ for line in file:
     if(len(names))==1:
         keanu = nodes.match("Resource", ns0__name=Contains(names[0]))
     else:
-        keanu = nodes.match("Resource", ns0__name=AND(Contains(names[0]),Contains(names[1])))
+        keanu = nodes.match("Resource", ns0__name=AND(Contains(names[0]),Contains(names[len(names)-1])))
     if keanu.first()==None:    
         print("not find")
         Not_find_count=Not_find_count+1

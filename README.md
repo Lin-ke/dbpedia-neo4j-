@@ -32,7 +32,7 @@ sudo apt-get install default-jdk
 
 ```
 
-./get-neo4j.sh
+./get-neo.sh
 
 ```
 
@@ -43,7 +43,7 @@ sudo apt-get install default-jdk
 
 ```
 
-./download-dbpedia.sh dbpedia_files.txt
+./dw-d.sh dbpedia_files.txt
 
 ```
 
@@ -51,7 +51,7 @@ sudo apt-get install default-jdk
 3.加载数据文件
 ```
 
-./import-dbpedia.sh
+./impt.sh
 
 ```
 
@@ -77,4 +77,5 @@ ${NEO4J_HOME}/bin/cypher-shell -u neo4j -p 'admin' "MATCH (r1:Resource)-[l]->(r2
 ```
 # 使用须知：
 导入数据后，请您将各个文件中的地址改成自己的地址。
+请至少预留40G磁盘空间~
 # ：新年快乐

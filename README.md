@@ -1,4 +1,6 @@
 # 选题：29
+学号：1190201024
+姓名：魏宇鹏
 【X=1.0】如何为知识图谱建立索引？ 【题目背景】由于大数据的出现，计算能力的升级，涌现出以知识图谱为代表的一批大数据 人工智能时代的产物。知识图谱的查询一直受到学术界和工业界的广泛关注，知识查询的效 率与知识图谱的索引密切相关。 【数据来源】Yago 知识图谱：https://www.mpi-inf.mpg.de/departments/databases-andinformation-systems/research/yago-naga/yago/downloads/ DBPedia 知识图谱：https://wiki.dbpedia.org/develop/datasets 【设计要求】给定知识图谱存储结构为图数据库，如 Neo4j 或 gStore，利用所给 Yago 知识 图谱和 DBPedia 知识图谱，设计知识图谱索引结构，要求（1）基于索引的查询效率尽可能 高；（2）保证知识图谱查询的准确率；（3）索引的存储空间不宜过大。 【实验要求】记录（1）基于索引的查询效率提升程度；（2）查询的准确率；（3）索引结构 的存储空间
 
 # 实验文件夹内容
@@ -15,8 +17,7 @@ work1.py错误人名搜索\
 work2.py正确人名搜索
 
 # DBpedia导入Neo4j
-学号：1190201024
-姓名：魏宇鹏
+
 
 
 0.OpenJDK 11。在ubuntu下可以使用
